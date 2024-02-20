@@ -4,27 +4,14 @@
 \alias{get_311}
 \title{Get Memphis 311 Data}
 \usage{
-get_311(
-  source = "file",
-  filepath = NULL,
-  department = NULL,
-  date = NULL,
-  cache = TRUE
-)
+get_311(filepath = NULL, department = NULL, date = NULL, cache = TRUE)
 }
 \arguments{
-\item{source}{File (the default) or API.
-\itemize{
-\item \code{"cache"}: open cached data
-\item \code{"file"}: read a downloaded csv file of Memphis 311 data.
-\item \code{"api"}: call the Memphis 311 API (max 1000 rows).
-}}
+\item{filepath}{The filepath to a csv file of Memphis 311 Service Requests. If none is given, will call the data from the API.}
 
-\item{filepath}{If source = "file" and no cache data exists, the csv filepath}
+\item{department}{The city department for which to call data.}
 
-\item{department}{The city department for which to call data}
-
-\item{date}{The date of the requests}
+\item{date}{The last modified date of the requests in YYYY-MM-DD format.}
 
 \item{cache}{Use cache to store data for faster future use.}
 }
