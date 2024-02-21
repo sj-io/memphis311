@@ -17,3 +17,5 @@ Imports:
     rappdirs,
     readr,
     stringr
+URL: https://github.com/sj-io/memphis311
+BugReports: https://github.com/sj-io/memphis311/issues
