@@ -1,6 +1,6 @@
 Package: memphis311
 Title: Access Memphis 311 Service Requests
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: 
     person("Sarah", "Johnson", , "sarahviamemphis@gmail.com", role = c("aut", "cre"))
 Description: Access the public dataset for Memphis 311 service requests.
