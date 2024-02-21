@@ -4,12 +4,12 @@
 \name{memphis311-package}
 \alias{memphis311}
 \alias{memphis311-package}
-\title{memphis311: What the Package Does (One Line, Title Case)}
+\title{memphis311: Access Memphis 311 Service Requests}
 \description{
-What the package does (one paragraph).
+Access the public dataset for Memphis 311 service requests.
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Sarah Johnson \email{sarahviamemphis@gmail.com}
 
 }
 \keyword{internal}

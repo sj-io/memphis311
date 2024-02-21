@@ -4,14 +4,22 @@
 \alias{get_311}
 \title{Get Memphis 311 Data}
 \usage{
-get_311(filepath = NULL, department = NULL, date = NULL, cache = TRUE)
+get_311(
+  filepath = NULL,
+  department = NULL,
+  creation_date = NULL,
+  last_modified_date = NULL,
+  cache = TRUE
+)
 }
 \arguments{
 \item{filepath}{The filepath to a csv file of Memphis 311 Service Requests. If none is given, will call the data from the API.}
 
 \item{department}{The city department for which to call data.}
 
-\item{date}{The last modified date of the requests in YYYY-MM-DD format.}
+\item{creation_date}{The date the sr was created in YYYY-MM-DD format.}
+
+\item{last_modified_date}{The last modified date of the requests in YYYY-MM-DD format.}
 
 \item{cache}{Use cache to store data for faster future use.}
 }
