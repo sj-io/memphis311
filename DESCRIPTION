@@ -11,11 +11,11 @@ RoxygenNote: 7.2.3
 Imports: 
     arrow,
     dplyr,
+    httr,
     httr2,
     janitor,
     lubridate,
     rappdirs,
-    readr,
     stringr
 URL: https://github.com/sj-io/memphis311
 BugReports: https://github.com/sj-io/memphis311/issues

@@ -8,6 +8,14 @@
 \description{
 Access the public dataset for Memphis 311 service requests.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/sj-io/memphis311}
+  \item Report bugs at \url{https://github.com/sj-io/memphis311/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Sarah Johnson \email{sarahviamemphis@gmail.com}
 

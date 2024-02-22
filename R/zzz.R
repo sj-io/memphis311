@@ -76,7 +76,7 @@ the_schema <- schema(
   target_block = string(),
   zone = string(),
   area = string(),
-  collection_day = double(),
+  collection_day = string(),
   swm_code = string()
 )
 
