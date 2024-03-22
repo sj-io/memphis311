@@ -4,24 +4,10 @@
 \alias{get_311}
 \title{Get Memphis 311 Data}
 \usage{
-get_311(
-  department = NULL,
-  creation_date = NULL,
-  last_modified_date = NULL,
-  save_cache = TRUE,
-  use_cache = TRUE
-)
+get_311(...)
 }
 \arguments{
-\item{department}{The city department for which to call data.}
-
-\item{creation_date}{The date the sr was created in YYYY-MM-DD format.}
-
-\item{last_modified_date}{The last modified date of the requests in YYYY-MM-DD format.}
-
-\item{save_cache}{Save data in cache for faster future use.}
-
-\item{use_cache}{Use existing cache data. Set to FALSE to call API data.}
+\item{...}{parameters passed on to query (i.e. department = "code enforcement")}
 }
 \description{
 Get Memphis 311 Data

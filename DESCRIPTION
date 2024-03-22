@@ -15,6 +15,7 @@ Imports:
     httr2,
     janitor,
     lubridate,
+    purrr,
     rappdirs,
     stringr
 URL: https://github.com/sj-io/memphis311

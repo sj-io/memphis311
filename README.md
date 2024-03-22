@@ -34,16 +34,11 @@ this if you expect over 1000 rows of data.
 all_311_requests <- get_311()
 ```
 
-Note the entire dataset is over 2 million rows, so this will take a
-minute. The data is saved to your cache folder, so you can access it in
-the future.
+**Note the entire dataset is over 2 million rows, so this will take a
+minute.**
 
-You can currently query using the following parameters:
+You can do a simple query on any columns in the dataset.
 
 ``` r
-ce_240129 <- get_311(department = "code enforcement", creation_date = "2024-01-29", last_modified_date = NULL)
+ce_240129 <- get_311(department = "code enforcement", creation_date = "2024-01-29")
 ```
-
-If the requested data isn’t found in the cache, it’ll call the API.
-Warning: Some API requests do not return all of the data. Working on
-this. Downloading the entire dataset first will catch everything.
